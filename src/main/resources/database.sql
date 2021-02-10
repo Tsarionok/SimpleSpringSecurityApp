@@ -29,7 +29,7 @@ CREATE TABLE user_roles
 -- Insert data
 -- {username: tsarionok, password: 12345678}
 INSERT INTO users
-VALUES (1, 'tsarionok', 'hhh');
+VALUES (1, 'tsarionok', '$2y$12$dwEYrmMn6.gEFqg7TojP8u90qmoAyKK1648wKwaRQEavCAjIKLfhW');
 
 INSERT INTO roles
 VALUES (1, 'ROLE_USER');
